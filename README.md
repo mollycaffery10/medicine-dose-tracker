@@ -1,1 +1,1 @@
-# road-trip-planner-web-dev
+# Road Trip Planner Project
