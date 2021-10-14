@@ -1,6 +1,6 @@
 # Medicine Dose Tracker App
 
 ## Tech/framework used:
-Built with PHP
+Built with PHP, HTML, and Javascript
 
 ## Installation:

@@ -5,3 +5,9 @@ h1 {
     background: lightsteelblue;
     border-radius: 15px;
 }
+
+table {
+    font-family: "Apple Braille";
+    align-content: center;
+
+}
