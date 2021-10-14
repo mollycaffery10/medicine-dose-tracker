@@ -3,4 +3,4 @@
 ## Tech/framework used:
 Built with PHP
 
-## Installation
+## Installation:
