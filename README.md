@@ -1,6 +1,6 @@
 # Road Trip Planner Project
 
-##Tech/framework used:
+## Tech/framework used:
 Built with PHP
 
-##Installation
+## Installation
