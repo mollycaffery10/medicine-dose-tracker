@@ -6,6 +6,8 @@
     </title>
 <!--    Linking CSS-->
     <link rel = "stylesheet" href="style.css">
+<!--    Including validator-->
+<!--    <script> src="gen_validator" type="text/javascript"</script>-->
 </head>
 
 <body>
@@ -14,39 +16,53 @@
         <h2>
             Sign-up Form:
         </h2>
-    <form>
+    <form id = 'register' action = 'register.php' method = 'post' accept-charset="UTF-8">
+        <fieldset>
         <table>
+            <!--                Full Name-->
+                <label>
+                    Full Name:
+                    <abbr title="This field is mandatory" aria-label="required">*</abbr>
+                </label>
+                <input type="text" name="" placeholder="Enter your name" required>
+                    <br>
+                    <br>
+            </tr>
+
             <tr>
-<!--                Email Field-->
-                <td>
+            <!--               Email Field-->
+                <label>
                     Email Address:
-                </td>
-                <td>
-                    <input type="text" email="" placeholder="Enter your username">
-                </td>
+                    <abbr title="This field is mandatory" aria-label="required">*</abbr>
+                </label>
+                <input type="text" email="" placeholder="Enter your username" required>
+                    <br>
+                    <br>
             </tr>
-<!--            Password Field-->
+            <!--            Password Field-->
             <tr>
-                <td>
-                    Password:
-                </td>
-                <td>
-                    <input type="password" name="" placeholder="Enter your password">
-                </td>
+                <label>
+                    Create a Password:
+                    <abbr title="This field is mandatory" aria-label="required">*</abbr>
+                </label>
+                <input type="password" name="" placeholder="Enter your password" required minlength="6">
+                    <br>
+                    <br>
             </tr>
             <tr>
-<!--                Subscribe option-->
+            <!--                Subscribe option-->
                 <td>
                     <input type="checkbox" name="Sign-up for emails" value="Sign-up"> Sign-up for emails<br> <input type="checkbox" name="Do not subscribe" value="non-sign-up"> Do not subscribe<br>
                 </td>
             </tr>
             <tr>
-<!--                Summit button-->
+            <!--                Summit button-->
                 <td>
                     <input type="submit" name="summit button">
                 </td>
             </tr>
         </table>
+        </fieldset>
     </form>
     </div>
 </body>
